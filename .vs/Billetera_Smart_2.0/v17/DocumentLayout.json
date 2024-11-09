@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F115A756-B3AA-4290-9649-9A4F8C9DEF14}|Capa_Datos\\Capa_Datos.csproj|c:\\users\\enderson\\source\\repos\\billetera_smart\\capa_datos\\cd_clsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F115A756-B3AA-4290-9649-9A4F8C9DEF14}|Capa_Datos\\Capa_Datos.csproj|solutionrelative:capa_datos\\cd_clsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79649B72-3B4D-4E33-A188-5C000DCFB3B0}|Capa_Entidad\\Capa_Entidad.csproj|c:\\users\\enderson\\source\\repos\\billetera_smart\\capa_entidad\\ce_clsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79649B72-3B4D-4E33-A188-5C000DCFB3B0}|Capa_Entidad\\Capa_Entidad.csproj|solutionrelative:capa_entidad\\ce_clsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F115A756-B3AA-4290-9649-9A4F8C9DEF14}|Capa_Datos\\Capa_Datos.csproj|c:\\users\\enderson\\source\\repos\\billetera_smart\\capa_datos\\cd_conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F115A756-B3AA-4290-9649-9A4F8C9DEF14}|Capa_Datos\\Capa_Datos.csproj|solutionrelative:capa_datos\\cd_conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E34CA54-EC90-4C87-8943-8DED9BB30540}|Billetera_Smart\\Billetera_Smart.csproj|c:\\users\\enderson\\source\\repos\\billetera_smart\\billetera_smart\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E34CA54-EC90-4C87-8943-8DED9BB30540}|Billetera_Smart\\Billetera_Smart.csproj|solutionrelative:billetera_smart\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E34CA54-EC90-4C87-8943-8DED9BB30540}|Billetera_Smart\\Billetera_Smart.csproj|c:\\users\\enderson\\source\\repos\\billetera_smart\\billetera_smart\\billetera_smart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E34CA54-EC90-4C87-8943-8DED9BB30540}|Billetera_Smart\\Billetera_Smart.csproj|solutionrelative:billetera_smart\\billetera_smart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CE_ClsEstados.cs",
+              "DocumentMoniker": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\CE_ClsEstados.cs",
+              "RelativeDocumentMoniker": "Capa_Entidad\\CE_ClsEstados.cs",
+              "ToolTip": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\CE_ClsEstados.cs",
+              "RelativeToolTip": "Capa_Entidad\\CE_ClsEstados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:10:13.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CD_ClsEstados.cs",
+              "DocumentMoniker": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\CD_ClsEstados.cs",
+              "RelativeDocumentMoniker": "Capa_Datos\\CD_ClsEstados.cs",
+              "ToolTip": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\CD_ClsEstados.cs",
+              "RelativeToolTip": "Capa_Datos\\CD_ClsEstados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T03:06:21.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CD_Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\CD_Conexion.cs",
+              "RelativeDocumentMoniker": "Capa_Datos\\CD_Conexion.cs",
+              "ToolTip": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\CD_Conexion.cs",
+              "RelativeToolTip": "Capa_Datos\\CD_Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:56:25.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Billetera_Smart\\appsettings.json",
+              "RelativeDocumentMoniker": "Billetera_Smart\\appsettings.json",
+              "ToolTip": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Billetera_Smart\\appsettings.json",
+              "RelativeToolTip": "Billetera_Smart\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-08T05:13:27.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Billetera_Smart.csproj",
+              "DocumentMoniker": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Billetera_Smart\\Billetera_Smart.csproj",
+              "RelativeDocumentMoniker": "Billetera_Smart\\Billetera_Smart.csproj",
+              "ToolTip": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Billetera_Smart\\Billetera_Smart.csproj",
+              "RelativeToolTip": "Billetera_Smart\\Billetera_Smart.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-08T05:11:27.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
