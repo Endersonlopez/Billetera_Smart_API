@@ -1,0 +1,16 @@
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\bin\Debug\net8.0\Capa_Datos.deps.json
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\bin\Debug\net8.0\Capa_Datos.dll
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\bin\Debug\net8.0\Capa_Datos.pdb
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\bin\Debug\net8.0\Capa_Entidad.dll
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\bin\Debug\net8.0\Capa_Entidad.pdb
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.sourcelink.json
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.csproj.Up2Date
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.dll
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\refint\Capa_Datos.dll
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\Capa_Datos.pdb
+C:\Users\Enderson\source\repos\Billetera_Smart\Capa_Datos\obj\Debug\net8.0\ref\Capa_Datos.dll

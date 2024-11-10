@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Billetera_Smart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93caac471e9f5ef4327104654889e71bf1576241")]
 [assembly: System.Reflection.AssemblyProductAttribute("Billetera_Smart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Billetera_Smart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

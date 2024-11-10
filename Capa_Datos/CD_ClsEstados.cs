@@ -75,20 +75,33 @@ namespace Capa_Datos
         }
 
         #endregion ActualizarEstados
+               
+        #region ListarEstados
 
-        #region LeerEstados
-        public void LeerEstados(CE_ClsEstados obj)
+        public List<CE_ClsEstados> ListarEstados (CE_ClsEstados obj)
         {
+            List<CE_ClsEstados> lts_Estados = new List<CE_ClsEstados>();
             cmd.Connection = _conexion.AbrirConexion();
             cmd.CommandText = "SP_Estados";
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@Accion", SqlDbType.Int, 3).Value = "Leer";
-            cmd.Parameters.Add("Id_Estado", SqlDbType.Int).Value = obj.Id_Estado;
-            cmd.Parameters.Add("Estado", SqlDbType.VarChar, 80).Value = obj.Estado;
-            cmd.Parameters.Add("Activo", SqlDbType.Bit).Value = obj.Activo;
+            cmd.Parameters.Add("@Accion", SqlDbType.Int).Value = 3;
+            da.SelectCommand = cmd;
             try
             {
-                cmd.ExecuteNonQuery();
+                da.Fill(tabla);
+                if (tabla.Rows.Count < 0)
+                {
+                    foreach (DataRow dr in tabla.Rows)
+                    {
+                        CE_ClsEstados fila = new CE_ClsEstados();
+                        fila.Id_Estado = dr["Id_Estado"] is DBNull ? 0 : Convert.ToInt32(dr["Id_Producto"]);
+                        fila.Estado = dr["Estado"] is DBNull ? string.Empty : Convert.ToString(dr["Estado"]);
+                        fila.Fecha_Creacion = dr["Fecha_Creacion"] is DBNull ? DateTime.MinValue : Convert.ToDateTime(dr["Fecha_Creacion"]);
+                        fila.Fecha_Modificacion = dr["Fecha_Modificacion"] is DBNull ? DateTime.MinValue : Convert.ToDateTime(dr["Fecha_Modificacion"]);
+                        fila.Activo = dr["Activo"] is DBNull ? 0 : Convert.ToInt32(dr["Activo"]);
+                        lts_Estados.Add(fila);
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -99,8 +112,11 @@ namespace Capa_Datos
                 cmd.Parameters.Clear();
                 cmd.Connection = _conexion.CerrarConexion();
             }
+
+            return lts_Estados;
         }
 
-        #endregion LeerEstados
+        #endregion ListarEstados
+
     }
 }

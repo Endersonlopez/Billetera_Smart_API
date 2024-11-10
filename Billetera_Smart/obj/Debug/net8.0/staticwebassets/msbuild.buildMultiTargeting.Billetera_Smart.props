@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Billetera_Smart.props" />
+</Project>

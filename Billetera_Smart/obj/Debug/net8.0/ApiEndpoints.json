@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Billetera_Smart.Controllers.ClsEstadosController",
+    "Method": "ListarEstados",
+    "RelativePath": "api/ClsEstados/GetEstados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "Capa_Entidad.CE_ClsEstados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Capa_Entidad.CE_ClsEstados, Capa_Entidad, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Billetera_Smart.Controllers.ClsEstadosController",
+    "Method": "InsertarEstados",
+    "RelativePath": "api/ClsEstados/PostEstados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_AMEstados",
+        "Type": "Billetera_Smart.Models.AM_Estados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billetera_Smart.Controllers.ClsEstadosController",
+    "Method": "ActualizarEstados",
+    "RelativePath": "api/ClsEstados/PutEstados",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_AMEstados",
+        "Type": "Billetera_Smart.Models.AM_Estados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

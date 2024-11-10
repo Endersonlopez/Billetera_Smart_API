@@ -60,6 +60,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -86,46 +90,175 @@
       }
     },
     "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\Capa_Datos.csproj": {
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\Capa_Datos.csproj",
         "projectName": "Capa_Datos",
         "projectPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\Capa_Datos.csproj",
+        "packagesPath": "C:\\Users\\Enderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Enderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net48": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\Capa_Entidad.csproj": {
                 "projectPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\Capa_Entidad.csproj"
               }
             }
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net48": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
       }
     },
     "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\Capa_Entidad.csproj": {
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\Capa_Entidad.csproj",
         "projectName": "Capa_Entidad",
         "projectPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\Capa_Entidad.csproj",
+        "packagesPath": "C:\\Users\\Enderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Entidad\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Enderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net48": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net48": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
       }
     },
     "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Negocio\\Capa_Negocio.csproj": {
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Negocio\\Capa_Negocio.csproj",
         "projectName": "Capa_Negocio",
         "projectPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Negocio\\Capa_Negocio.csproj",
+        "packagesPath": "C:\\Users\\Enderson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Enderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net48": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\Capa_Datos.csproj": {
                 "projectPath": "C:\\Users\\Enderson\\source\\repos\\Billetera_Smart\\Capa_Datos\\Capa_Datos.csproj"
@@ -135,10 +268,49 @@
               }
             }
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net48": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
       }
     }
   }
